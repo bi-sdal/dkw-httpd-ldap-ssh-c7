@@ -1,4 +1,4 @@
-FROM dads2busy/c7-ssh-ldap-httpd
+FROM sdal/httpd-ldap-ssh-c7
 MAINTAINER Aaron D. Schroeder <dads2busy@gmail.com>
 
 ## Install Prerequisites (php-ldap only needed if you're using LDAP authentication)
